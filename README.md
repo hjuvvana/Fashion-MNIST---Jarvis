@@ -3,13 +3,13 @@ Repo for students to practice creating a pull request after forking a repo
 
 First, make a fork of the GitHub repo.
 
-a. Visit URL: https://github.com/sbruce23/STAT624_PRdemo
+a. Visit URL: https://github.com/hjuvvana/Fashion-MNIST---Jarvis
 
 b. In the top right corner of the screen, click on the down arrow next to "Fork" and select "Create a new fork." This creates an independent copy of the GitHub repo, which is then saved as a repository under your GitHub account.
 
 *Note that if you are already listed as a collaborator on the repo, or it is your own repo, you can skip this step in practice.
 
-Clone the forked GitHub repository from your GitHub account (git clone https://github.com/your-username/STAT624_PRdemo.git), replacing your-username with your actual GitHub username.
+Clone the forked GitHub repository from your GitHub account (git clone https://github.com/hjuvvana/Fashion-MNIST---Jarvis.git), replacing your-username with your actual GitHub username.
 
 In a terminal window located at the folder, run:
 
@@ -19,13 +19,13 @@ b. git branch dev (create the new branch)
 
 c. git checkout dev (checkout the new branch)
 
-Edit fav_animal.txt on your local machine in the directory by adding your favorite animal to the file and save it.
+Edit python code files on your local machine in the directory and save it.
 
 In the terminal window run:
 
-a. git status (should show that fav_animal.txt has been modified but is not in the staging area)
+a. git status (should show that files has been modified but is not in the staging area)
 
-b. git add . (Should add fav_animal.txt to the staging area)
+b. git add . (Should add files to the staging area)
 
 c. git commit -m 'added favorite animal <insert name here>' 
 
@@ -33,13 +33,13 @@ d. git push --set-upstream origin dev (set up and use a classic security token i
 
 Create a pull request on GitHub to merge your changes from your forked repository into the original repository:
 
-a. Navigate to your forked repository on GitHub by going to the URL: https://github.com/your-username/STAT624_PRdemo, replacing your-username with your actual GitHub username.
+a. Navigate to your forked repository on GitHub by going to the URL: https://github.com/hjuvvana/Fashion-MNIST---Jarvis, replacing your-username with your actual GitHub username.
 
 b. At the top of your repository, locate and click on the "Pull Requests" tab.
 
 c. Click the green "New Pull Request" button.
 
-d. On the "Compare changes" page, ensure that the "base repository" is set to sbruce23/STAT624_PRdemo and the "base" branch is set to main.
+d. On the "Compare changes" page, ensure that the "base repository" is set to hjuvvana/Fashion-MNIST---Jarvis and the "base" branch is set to main.
 
 e. In the "head repository" drop-down, select your forked repository.
 
